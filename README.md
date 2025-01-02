@@ -21,7 +21,7 @@ A modern weather application with real-time updates, 5-day forecast, and interac
 
 ## 🚀 Demo
 
-Visit: [weather-app-demo.vercel.app](https://weather-app-demo.vercel.app)
+Visit: [weather.enowdev.site](https://weather.enowdev.site/)
 
 ## 🛠️ Built With
 
