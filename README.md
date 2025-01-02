@@ -8,6 +8,8 @@ A modern weather application with real-time updates, 5-day forecast, and interac
 
 ## ✨ Features
 
+> **Note:** This app requires location access permission to work properly. Please allow location access when prompted by your browser.
+
 - 🌡️ Real-time weather information
 - 🗺️ Interactive weather map
 - 📊 24-hour temperature change graph
@@ -112,6 +114,8 @@ Aplikasi cuaca modern dengan fitur real-time, prakiraan 5 hari, dan peta interak
 [🇬🇧 Read in English](#top)
 
 ## ✨ Fitur
+
+> **Catatan:** Aplikasi ini membutuhkan izin akses lokasi untuk berfungsi dengan baik. Mohon izinkan akses lokasi ketika diminta oleh browser Anda.
 
 - 🌡️ Informasi cuaca real-time
 - 🗺️ Peta cuaca interaktif
