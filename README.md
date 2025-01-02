@@ -38,8 +38,8 @@ Visit: [weather-app-demo.vercel.app](https://weather-app-demo.vercel.app)
 
 1. Clone the repository
 ```bash
-git clone https://github.com/username/weather-app.git
-cd weather-app
+git clone https://github.com/enowdev/weather-webapp.git
+cd weather-webapp
 ```
 
 2. Install dependencies
@@ -72,11 +72,11 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Deploy on Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/username/weather-app)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/enowdev/weather-webapp)
 
 ### Deploy on Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/username/weather-app)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/enowdev/weather-webapp)
 
 ## 📸 Screenshots
 
@@ -98,9 +98,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle)
+enowdev - [@enowdev](https://twitter.com/enowdev)
 
-Project Link: [https://github.com/username/weather-app](https://github.com/username/weather-app)
+Project Link: [https://github.com/enowdev/weather-webapp](https://github.com/enowdev/weather-webapp)
 
 ---
 
@@ -139,8 +139,8 @@ Aplikasi cuaca modern dengan fitur real-time, prakiraan 5 hari, dan peta interak
 
 1. Clone repository
 ```bash
-git clone https://github.com/username/weather-app.git
-cd weather-app
+git clone https://github.com/enowdev/weather-webapp.git
+cd weather-webapp
 ```
 
 2. Install dependensi
@@ -177,4 +177,4 @@ Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) unt
 
 Nama Anda - [@twitter_handle](https://twitter.com/twitter_handle)
 
-Link Proyek: [https://github.com/username/weather-app](https://github.com/username/weather-app)
+Link Proyek: [https://github.com/enowdev/weather-webapp](https://github.com/enowdev/weather-webapp)
