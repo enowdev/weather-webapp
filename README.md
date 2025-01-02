@@ -175,6 +175,6 @@ Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) unt
 
 ## 📧 Kontak
 
-Nama Anda - [@twitter_handle](https://twitter.com/twitter_handle)
+Enowdev - [@twitter_handle](https://twitter.com/enowdev)
 
 Link Proyek: [https://github.com/enowdev/weather-webapp](https://github.com/enowdev/weather-webapp)

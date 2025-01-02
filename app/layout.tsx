@@ -4,7 +4,11 @@ import './globals.css';
 import { ThemeProvider } from './components/providers/theme-provider';
 import QueryProvider from './providers/query-provider';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Inter({ 
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-inter',
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'),
@@ -31,7 +35,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="id" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={`${inter.className} antialiased`}>
         <QueryProvider>
           <ThemeProvider>{children}</ThemeProvider>
         </QueryProvider>
