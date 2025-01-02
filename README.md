@@ -1,36 +1,180 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern Weather App
 
-## Getting Started
+A modern weather application with real-time updates, 5-day forecast, and interactive maps. Built with Next.js 14, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+[🇮🇩 Baca dalam Bahasa Indonesia](#indonesian)
 
+![Weather App Screenshot](./screenshots/weather-app.png)
+
+## ✨ Features
+
+- 🌡️ Real-time weather information
+- 🗺️ Interactive weather map
+- 📊 24-hour temperature change graph
+- 🌅 Dark/Light mode
+- 🌍 Multi-language support (EN/ID)
+- 📱 PWA support
+- 🔔 Extreme weather notifications
+- ❤️ Save favorite cities
+- 🔄 Unit converter (Celsius/Fahrenheit)
+- 📤 Share feature
+
+## 🚀 Demo
+
+Visit: [weather-app-demo.vercel.app](https://weather-app-demo.vercel.app)
+
+## 🛠️ Built With
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- React Query
+- Zustand
+- Leaflet Maps
+- Chart.js
+- Framer Motion
+
+## ⚙️ Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/username/weather-app.git
+cd weather-app
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Set up environment variables
+```bash
+cp .env.example .env.local
+```
+
+Add to `.env.local`:
+```
+NEXT_PUBLIC_OPENWEATHER_API_KEY=your_api_key_here
+```
+
+4. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Deploy on Vercel
 
-## Learn More
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/username/weather-app)
 
-To learn more about Next.js, take a look at the following resources:
+### Deploy on Netlify
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/username/weather-app)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📸 Screenshots
 
-## Deploy on Vercel
+### Light Mode
+![Light Mode](./screenshots/light-mode.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Dark Mode
+![Dark Mode](./screenshots/dark-mode.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Interactive Map
+![Interactive Map](./screenshots/map-view.png)
+
+### Temperature Chart
+![Temperature Chart](./screenshots/temperature-chart.png)
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📧 Contact
+
+Your Name - [@twitter_handle](https://twitter.com/twitter_handle)
+
+Project Link: [https://github.com/username/weather-app](https://github.com/username/weather-app)
+
+---
+
+<a name="indonesian"></a>
+# Aplikasi Cuaca Modern
+
+Aplikasi cuaca modern dengan fitur real-time, prakiraan 5 hari, dan peta interaktif. Dibangun dengan Next.js 14, TypeScript, dan Tailwind CSS.
+
+[🇬🇧 Read in English](#top)
+
+## ✨ Fitur
+
+- 🌡️ Informasi cuaca real-time
+- 🗺️ Peta cuaca interaktif
+- 📊 Grafik perubahan suhu 24 jam
+- 🌅 Mode gelap/terang
+- 🌍 Multi-bahasa (ID/EN)
+- 📱 Dukungan PWA
+- 🔔 Notifikasi cuaca ekstrem
+- ❤️ Simpan kota favorit
+- 🔄 Pengubah unit (Celsius/Fahrenheit)
+- 📤 Fitur berbagi
+
+## 🛠️ Dibuat Dengan
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- React Query
+- Zustand
+- Leaflet Maps
+- Chart.js
+- Framer Motion
+
+## ⚙️ Instalasi
+
+1. Clone repository
+```bash
+git clone https://github.com/username/weather-app.git
+cd weather-app
+```
+
+2. Install dependensi
+```bash
+npm install
+# atau
+yarn install
+```
+
+3. Siapkan environment variables
+```bash
+cp .env.example .env.local
+```
+
+Tambahkan ke `.env.local`:
+```
+NEXT_PUBLIC_OPENWEATHER_API_KEY=your_api_key_here
+```
+
+4. Jalankan server development
+```bash
+npm run dev
+# atau
+yarn dev
+```
+
+Buka [http://localhost:3000](http://localhost:3000) di browser Anda.
+
+## 📝 Lisensi
+
+Proyek ini dilisensikan di bawah Lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail.
+
+## 📧 Kontak
+
+Nama Anda - [@twitter_handle](https://twitter.com/twitter_handle)
+
+Link Proyek: [https://github.com/username/weather-app](https://github.com/username/weather-app)
