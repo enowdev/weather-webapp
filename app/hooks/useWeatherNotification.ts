@@ -16,7 +16,7 @@ const isExtremeWeather = (weather: WeatherData) => {
   );
 };
 
-export const useWeatherNotification = (weather: WeatherData | null) => {
+export const useWeatherNotification = (weather: WeatherData | null | undefined) => {
   useEffect(() => {
     const checkAndNotify = async () => {
       if (!weather) return;

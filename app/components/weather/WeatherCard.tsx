@@ -23,7 +23,7 @@ export const WeatherCard = () => {
   const { addToFavorites, removeFromFavorites, isFavorite } = useFavorites();
   const { t } = useLanguage();
 
-  useWeatherNotification(weather);
+  useWeatherNotification(weather || null);
 
   if (locationError || error) {
     return (
